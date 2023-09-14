@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part */
+header {
+    background-image: url(../images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+}
+
+header h3 {
+    margin-left: 847px;
+    padding-top: 215px;
+    margin-right: 230px;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+header p {
+    margin-left: 847px;
+    margin-right: 230px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Dark-02, #444343);
+}
+
+header button {
+    margin-left: 1210px;
+    margin-right: 230px;
+    margin-bottom: 185px;
+    padding: 21px 26px;
+    color: white;
+    border-radius: 5px;
+    background: #F15B22;
+    border-style: none;
+}
+
+/* failure-section */
+.failure-section {
+    display: flex;
+}
+
+.failure-section img {
+    margin-left: 206px;
+    margin-top: 140px;
+    margin-right: 85px;
+
+
+    border-radius: 50%;
+    background: rgba(241, 91, 34, 0.20);
+
+}
+
+.failure-article h3 {
+    margin-top: 370px;
+    margin-right: 350px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-size: 16px;
+    font-weight: 400;
+    width: 416px;
+    margin-bottom: 16px;
+    color: var(--Dark-02, #444343);
+}
+
+.fa-solid {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+.failure-reason {
+    margin-bottom: 8px;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* my-plan */
+.my-plan h3 {
+    margin-top: 130px;
+    margin-left: 711px;
+    margin-right: 600px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+.my-plan-section {
+    display: flex;
+    margin-left: 230px;
+}
+
+.my-plan-section img {
+    margin-left: 100px;
+    margin-bottom: 18px;
+    margin-right: 100px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.my-plan-section p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+/* footer */
+.footer-article {
+    margin-top: 130px;
+    background: var(--Dark-01, #151414);
+    width: 1600px;
+    height: 577px;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.footer-section h3 {
+    padding-left: 230px;
+    padding-top: 130px;
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    color: #F8F8F8;
+}
+
+.footer-section p {
+    padding-left: 230px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 485px;
+    margin-right: 330px;
+    margin-bottom: 24px;
+    color: #FFF;
+}
+
+.image {
+    margin-left: 220px;
+}
+
+.footer-section h4 {
+    padding-top: 130px;
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    color: #F8F8F8;
+}
+
+.footer-section input {
+    padding-left: 21px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 158px;
+    font-size: 18px;
+    font-weight: 400;
+    background: var(--Dark-01, #151414);
+    margin-bottom: 15px;
+}
+
+.footer-section button {
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border-radius: 8px;
+    background: #FFF;
+}
