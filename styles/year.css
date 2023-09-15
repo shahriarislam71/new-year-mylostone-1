@@ -123,6 +123,33 @@ header button {
     margin-left: 40px;
 }
 
+/* picture */
+.picture {
+    width: 1140px;
+    height: 300px;
+    margin-top: 135px;
+    margin-left: 230px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(../images/watch.png);
+    
+}
+.picture h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 64px;
+    padding-top: 60px;
+    width: 459px;
+    margin-bottom: 24px;
+}
+.picture button{
+    padding: 20px 36px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 64px;
+}
+
 /* footer */
 .footer-article {
     margin-top: 130px;
